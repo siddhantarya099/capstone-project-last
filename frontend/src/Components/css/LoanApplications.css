@@ -1,0 +1,79 @@
+/* Apply a better font to the entire table */
+table {
+    font-family: 'Arial', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Style table header cells */
+  th {
+    background-color: #572780; /* Header background color */
+    color: white; /* Header text color */
+    padding: 10px;
+    text-align: left;
+    border-right: 1px solid white; /* White border between header columns */
+  }
+  .table-header-cell {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  
+  /* Style table data cells */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd; /* Add a bottom border to separate rows */
+    border-right: 1px solid white; /* White border between data columns */
+    font-size: 16px; /* Increase font size */
+  font-family: 'Roboto', sans-serif; /* Change the font style */
+  }
+  
+  /* Style the More Info, Accept, and Reject buttons */
+  .button {
+    margin-right: 5px;
+    font-size: 14px;
+    padding: 8px 12px;
+    background-color: #572780; /* Button background color */
+    color: white; /* Button text color */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Add a smooth background color transition */
+  }
+  
+  .button:hover {
+    background-color: #431c53; /* Hover background color */
+  }
+  
+  /* Style the Close button */
+  .button.close {
+    background-color: #c5a0df; /* Close button background color */
+  }
+  
+  .button.close:hover {
+    background-color: #5a287d; /* Hover background color for Close button */
+  }
+  
+  /* Center the header text */
+  .header {
+    text-align: center;
+    color: #572780; /* Header text color */
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Add a shadow to the table container */
+  .table-container {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+  }
+  /* LoanApplications.css */
+.table-row {
+    background-color: #f0f0f0; /* Set your desired background color here */
+  }
+  
+  /* Style the table rows on hover */
+  .table-row:hover {
+    background-color: #aaa5a5; /* Hover background color for rows */
+  }
+  

@@ -1,0 +1,11 @@
+.page-background {
+    background-image: url('https://av.sc.com/in/content/images/sc-loan-repay-option-1600x490-1.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+  }

@@ -1,0 +1,108 @@
+
+/* Style for the entire FAQ page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+/* Style for the top navigation bar */
+/* Add your styles for TopNavbar here */
+
+/* Style for the FAQ header */
+.faq-header {
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Style for the "General FAQs" heading */
+.faq-header h2 {
+  color: #5a287d;
+  margin: 0;
+  margin-right: 10px;
+}
+
+/* Style for the search bar */
+.search-bar {
+  display: flex;
+  align-items: center;
+}
+
+/* Style for the search input */
+.search-bar input[type="text"] {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+/* Style for the search button */
+.search-bar button {
+  padding: 5px 10px;
+  background-color: #5a287d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style for the FAQ list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  margin-top: 30px; /* Adjust as needed to avoid overlapping with the fixed header */
+}
+
+/* Style for each FAQ item */
+li {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+/* Style for even FAQ items (grey background) */
+li:nth-child(even) {
+  background-color: #f0f0f0; /* Grey background color */
+}
+
+/* Style for odd FAQ items (white background) */
+li:nth-child(odd) {
+  background-color: #fff; /* White background color */
+}
+/* Style for the FAQ question and answer */
+.faq-content li {
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+/* Style for the "Q:" label */
+strong {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Style for the "A:" label */
+span strong {
+  color: #333;
+  font-weight: bold;
+}
+
+/* Style for the FAQ answer */
+span {
+  color: #666;
+}
+
+/* Add this CSS to your faq.css file or your preferred stylesheet */
+
+/* Style for highlighted text */
+.highlight {
+  background-color: yellow; /* You can change the background color as desired */
+  font-weight: bold; /* Bold text for highlighting */
+}
+
+/* Style for the footer */
+/* Add your styles for Footer here */

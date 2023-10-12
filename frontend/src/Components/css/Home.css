@@ -1,0 +1,335 @@
+/* Home.css */
+
+/* Content Container */
+
+.content-container {
+  background-color: #5a287d;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  position: relative;
+}
+
+/* Content */
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+/* Span */
+.span {
+  font-weight: bold;
+  color: white;
+  text-align: left;
+  display: block;
+  margin-top: 0;
+}
+
+.span h1 {
+  margin-bottom: 20px;
+}
+
+/* Spacer */
+.spacer {
+  background-color: white;
+  flex-grow: 1;
+  padding: 200px;
+}
+
+/* Right Corner Image */
+.right-corner-image {
+  object-fit: cover;
+  background-color: #5a287d;
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  border: 0px solid #ccc;
+}
+
+/* Banking Section and About Us Section */
+.banking-section {
+  background-color: rgba(211, 215, 209, 0.533);
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 60vh; /* Set the height to the viewport height for vertical centering */
+  border: 1px solid #ccc; /* Add a border */
+  padding: 20px; /* Add some padding */
+  text-align: center; /* Center the text horizontally */
+}
+.banking-content {
+  flex: 1;
+  padding: 20px;
+  max-width: 800px; /* Set a maximum width for the content */
+}
+/* Section Titles */
+h1 {
+  font-size: 2rem;
+}
+.banking-image {
+  flex: 1;
+  background: transparent;
+  text-align: right; /* Align the image to the right */
+}
+
+.banking-image img {
+  margin-right: 10px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+/* Section Content */
+p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: #5a287d;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #5a287d;
+}
+
+/* Banking Content */
+.banking-content {
+  text-align: left;
+}
+
+.banking-content h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  text-align: left;
+  color: #5a287d;
+}
+
+.banking-content p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+}
+
+.banking-content ul {
+  list-style-type: square;
+  margin-left: 1rem;
+}
+
+/* Chart Container */
+.chart-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #ffffff;
+  /* border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+}
+
+/* Chart Description */
+/* Style for the chart container */
+.chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  /* border: 1px solid #ccc;
+  border-radius: 5px; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Style for the chart description */
+.chart-description {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.chart-description h2 {
+  color: #5a287d;
+  font-size: 40px;
+  margin-top: 0px;
+}
+.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 5px;
+}
+
+.chart-container {
+  flex: 1; /* Takes up half of the available space */
+}
+
+.description-container {
+  flex: 1; /* Takes up half of the available space */
+  padding: 20px;
+}
+
+.chart-description p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.5;
+}
+.chart {
+  flex: 1;
+  padding: 20px;
+}
+
+.chart-description {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Style for the chart itself (you might need to adjust this based on your chart library's CSS) */
+.recharts-wrapper {
+  max-width: 100%;
+}
+
+
+/* Style for the banking image */
+.banking-image {
+  margin-top: 50px;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+/* Styling for individual banking images */
+.banking-image {
+  margin-top: 50px;
+  max-width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the image gallery container */
+.image-gallery {
+  display: flex; /* Display images horizontally */
+  flex-wrap: wrap; /* Allow images to wrap to the next line if necessary */
+  justify-content: center; /* Center the images horizontally */
+  margin-top: 20px; /* Add margin at the top of the gallery */
+}
+
+/* Styling for each image container */
+.image-container {
+  margin-bottom: 50px;
+  width: 200px; /* Set the desired width */
+  margin: 10px; /* Add margin around each image */
+  position: relative; 
+  /* Create a positioning context for absolute elements */
+}
+
+/* Styling for images within image containers */
+.image-container img {
+  margin-bottom: 50px;
+  max-width: 100%;
+  max-height: 100%;
+  width: auto;
+  height: auto;
+}
+
+/* Styling for links within image containers */
+.image-container a {
+  display: block; /* Display the link as a block element */
+  text-align: center; /* Center the link text */
+  text-decoration: none; /* Remove underlines from links */
+  color: #333; /* Text color for the link */
+}
+
+/* Hover effect for links within image containers */
+.image-container a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Styling for links within image descriptions */
+.image-description a {
+  margin-top: 20px;
+  color: #5a287d; /* Link color within the description */
+  text-decoration: underline; /* Underline the links */
+}
+
+/* Styling for the image descriptions */
+.image-description {
+  font-style: normal;
+  color: #5a287d; /* Text color in violet */
+  padding: 10px; /* Padding around the content */
+  position: absolute; /* Position the description over the image */
+  bottom: 0; /* Place the description at the bottom of the image */
+  left: 0; /* Align the description to the left of the image */
+  width: 100%; /* Make the description span the full width of the image */
+  box-sizing: border-box; /* Include padding and border in the total width */
+}
+
+/* Style for the image description */
+/* Style for the image container */
+/* Style for the container holding the images and descriptions */
+.image1-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px; /* Adjust the gap between items as needed */
+  margin-top: 20px;
+}
+
+/* Style for each image description */
+/* Style for the container holding the images and descriptions */
+.image1-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  background-color: #f0f0f0; /* Background color for the container */
+  padding: 20px; /* Add some padding to the container */
+  border-radius: 10px; /* Add rounded corners to the container */
+}
+
+/* Style for each image description */
+.image1-description {
+  flex: 0 0 calc(33.33% - 10px); /* Adjust the width as needed (33.33% for three items with 10px margin) */
+  text-align: center;
+  border: 1px solid #ccc; /* Add a 1px solid border around each image and description */
+  background-color: white; /* Set the background color to white */
+  padding: 10px; /* Add padding inside each image and description */
+}
+
+/* Style for the image itself */
+.image1-description img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px; /* Add margin to control spacing between images and text */
+}
+
+/* Style for the image heading */
+.image1-description h2 {
+  font-size: 1.2rem;
+  color:#5a287d; /* Change the color as needed */
+  margin-top: 10px;
+}
+
+/* Style for the image description text */
+.image1-description p {
+  font-size: 0.9rem;
+  color: #666; /* Change the color as needed */
+  margin-top: 10px;
+}

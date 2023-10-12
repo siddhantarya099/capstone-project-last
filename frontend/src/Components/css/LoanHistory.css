@@ -1,0 +1,65 @@
+/* LoanHistory.css */
+
+.loan-history-details {
+    max-width: 100%;
+    margin: 5% auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #401664;
+  }
+  
+  .loan-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 100px;
+  }
+  
+  .loan-table th,
+  .loan-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .loan-table th {
+    background-color: #401664;
+    color: #fff;
+  }
+  
+  .loan-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .loan-table tbody tr:hover {
+    background-color: #ddd;
+  }
+
+  .make-payment-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #401664;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    text-align: center;
+  }
+  
+  .make-payment-button:hover {
+    background-color: #5c2782;
+  }
+  
+  .centered {
+    text-align: center;
+    margin-top: 20px; 
+  }

@@ -1,0 +1,87 @@
+/* Background properties for the dashboard container */
+.dashboard-container {
+  background-color: #c5a0df;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+/* Style the welcome text */
+.welcome-text {
+  color: black; /* Text color, e.g., white */
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Style the image carousel */
+.image-carousel {
+  text-align: center;
+  margin-top: 20px;
+  padding: 0 0px;
+  position: relative;
+}
+
+.image-carousel img {
+  width: 100%;
+  height: 450px;
+}
+
+/* Style the dashboard cards */
+.dashboard-card {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.dashboard-card h6 {
+  margin-bottom: 10px;
+}
+
+.dashboard-card p {
+  margin-bottom: 20px;
+}
+
+.dashboard-card button {
+  background-color: #5a287d;
+  color: #fff;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dashboard-card button:hover {
+  background-color: #c5a0df;
+}
+
+.carousel-button {
+  background-color: #c5a0df; /* Semi-transparent background */
+  color: #fff; /* Text color */
+  font-size: 24px;
+  border: none;
+  border-radius: 50%; /* Make it a circle */
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1; /* Place it above the image */
+}
+
+.carousel-button:first-child {
+  left: 20px; /* Adjust the left position as needed */
+}
+
+.carousel-button:last-child {
+  right: 20px; /* Adjust the right position as needed */
+}
+
+.carousel-button:hover {
+  background-color: rgba(0, 0, 0, 0.7); /* Darker background on hover */
+}

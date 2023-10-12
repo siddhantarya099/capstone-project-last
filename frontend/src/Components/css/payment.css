@@ -1,0 +1,127 @@
+/* payment.css */
+
+/* Styles specific to the Payment page container */
+.payment-container {
+  background-color: #f7f7f7;
+  overflow-y: auto; /* Add scroll when content overflows */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 600px;
+  min-height: 80vh; /* Set a fixed height and adjust as needed */
+  padding: 20px;
+  position: relative; /* Add relative positioning */
+}
+
+/* Heading styles */
+.payment-heading {
+  color: #5a287d;
+}
+
+/* Outstanding balance and due date styles */
+.payment-info {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Form styles */
+form {
+  margin-top: 20px;
+}
+
+/* Form label styles */
+.payment-label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  display: block;
+  color: #333;
+}
+
+/* Form input styles */
+.payment-input[type="number"],
+form select,
+.payment-input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease-in-out;
+}
+/* payment.css */
+
+/* payment.css */
+
+/* ... (previous styles) */
+
+/* Form input hover styles with !important */
+.payment-input[type="number"]:hover,
+.payment-select:hover,
+.payment-input[type="text"]:hover {
+border-color: #5a287d !important; /* Add !important to ensure it takes precedence */
+}
+
+/* ... (remaining styles) */
+
+
+/* Form input focus styles */
+.payment-input[type="number"]:focus,
+form select:focus,
+.payment-input[type="text"]:focus {
+  border-color: #5a287d;
+}
+
+/* Submit button styles */
+/* payment.css */
+.payment-button {
+  background-color: #5a287d;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  position: sticky;
+  bottom: 10px;
+  z-index: 1;
+}
+
+/* Submit button hover styles */
+.payment-button:hover {
+  background-color: #c5a0df; /* Darker violet on hover */
+}
+
+/* Confirmation message styles */
+.payment-confirmation {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 16px;
+}
+/* Add this to your CSS file, or create a new CSS file if you don't have one */
+.full-payment-error {
+color: #fff; /* Text color */
+background-color: #e77d7d; /* Background color */
+padding: 5px; /* Padding around the error message */
+border: 1px solid #d8bebe; /* Border around the error message */
+border-radius: 5px; /* Rounded corners for the error message */
+margin-top: 10px; /* Margin to separate it from other elements */
+}
+.payment-page {
+  background-image: url('https://av.sc.com/in/content/images/sc-loan-repay-option-1600x490-1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+ 
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Position the background behind the content */
+}

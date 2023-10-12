@@ -1,0 +1,58 @@
+/* customersupport.css */
+.cust-page {
+  background-image: url('https://av.sc.com/in/content/images/sc-loan-repay-option-1600x490-1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Position the background behind the content */
+}
+.customer-support-container {
+    margin-top: 70px; /* Adjust the margin-top as needed to move the content downward */
+    margin-bottom: 50px; /* Add margin to the bottom of the content */
+  }
+  
+  .customer-support-heading {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .card {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    height: 100%;
+    background-color: #f0f0f0; /* Set the height to 100% to match the "Write Us" card's height */
+  }
+  
+  /* Increase the card title font size and center-align it */
+  .card-title {
+    font-size: 40px; /* Adjust the font size as needed */
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Add a custom class for button color */
+  .custom-button-color {
+    background-color: #401664; /* Replace with your desired color code */
+    color: #ffffff; /* Text color */
+  }
+  .faq-text {
+    font-size: 25px; /* Adjust the font size as needed */
+  }
+  
+  /* Additional styles for .card-button */
+  .card-button {
+    text-align: center; /* Center align the button */
+    margin-top: 20px; /* Add some space above the button */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Rounded corners */
+     
+  }
+  
+  
